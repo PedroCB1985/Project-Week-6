@@ -1,6 +1,21 @@
-body {background-color:white;}
-footer {margin:auto}
-h1{color:grey;font-family: Verdana;}
-.maindiv{background-color: white;color:black;width: 300px; padding:20px; border-radius: 25px; margin:auto}
+body {
+    background-color:white;
+    color:white;
+    font-family:arial;
+
+}
+
+h1{
+    color:grey;
+    font-family: Verdana;
+}
+.maindiv{
+    background-color: white;
+    color:black;
+    width: 300px; 
+    padding:20px;
+    border-radius: 25px; 
+    margin:auto
+}
 
 

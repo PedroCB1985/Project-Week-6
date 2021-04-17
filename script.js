@@ -1,6 +1,24 @@
-function compute()
+function compute()//Calcula el valor del interés
 {
-    p = document.getElementById("principal").value;
-    
+    var principal = document.getElementById("principal").value;//Crea variable interna 
+    var rate = document.getElementById("rate").value;//Interés
+    var years = document.getElementById("years").value;//Años
+    var interest = principal*years*rate/100;//Resultado
+
+    var year = new Date().getFullYear()+parseInt(years)//Calcula el año final
+
+    //if( check_principal() == true)   {  
+       // document.getElementById("result").innerHTML = 
+        //"If you deposit <mark>" + principal + "</mark>,<br>" +  
+        //"at an interest rate of <mark>" + rate + "%</mark>.<br>" + 
+        //"You will receive an amount of <mark>" + interest + "</mark>, <br>" + 
+        //"in the year <mark>" + year + "</mark><br>"
+//    }  
+
 }
-        
+      
+function updateRate()
+{
+    var rateval = document.getElementById("rate").value;
+    document.getElementById("rate_val").innerHTML = rateval;
+}
